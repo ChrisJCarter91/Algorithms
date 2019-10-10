@@ -17,3 +17,7 @@ You can also test your implementation manually by executing `python stock_prices
  For this problem, we essentially want to find the maximum difference between the smallest and largest prices in the list of prices, but we also have to make sure that the max profit is computed by subtracting some price by another price that comes _before_ it; it can't come after it in the list of prices. 
 
  So what if we kept track of the `current_min_price_so_far` and the `max_profit_so_far`? 
+
+ Find the max difference between the smallest and largest prices
+ Need to make sure profit is computed by subtracting some price by another that "comes_before_it", can't come after it.
+ Would it make sense to track current minimun price so far and the max profit so far?
